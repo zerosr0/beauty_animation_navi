@@ -1,8 +1,7 @@
-let btn = document.querySelector(".navi__btn");
-let container = document.querySelector(".container");
-let navContainer = document.querySelector(".navi__container");
+const navContainer = document.querySelector(".navi__container");
+const toggleBtn = document.querySelector(".navi__btn__plus");
 
-btn.addEventListener("click", () => {
+toggleBtn.addEventListener("click", () => {
   navContainer.classList.toggle("active");
-  btn.classList.toggle("active");
 })
+
